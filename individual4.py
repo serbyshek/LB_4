@@ -11,5 +11,4 @@ if __name__ == '__main__':
      elif st[i] != ' ' and st[i-1] == ' ':
         c += 1
         mx.append(0)
-        print(mx)
     print(max(mx))
